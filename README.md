@@ -1,4 +1,4 @@
-# Denmark's Riso Association
+# Denmark's Riso Association Website
 
 To update the website locally you will need a text editor and a command line. If you get [VSCode](https://code.visualstudio.com/), you can have access to both in the same window, which might be easiest!
 
