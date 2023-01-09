@@ -12,15 +12,15 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}</title>
-    <link rel="stylesheet" href="tachyons.css">
-    <link rel=" stylesheet" href="markdown.css">
+    <link rel="stylesheet" href="{{ get_url(path="tachyons.css", trailing_slash=false) | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path="markdown.css", trailing_slash=false) | safe }}">
     <title>Denmark's Riso Association</title>
 </head>
 
 <body>
     <section class="dt mw6 center pt4 pb3 pv5-m pv6-ns">
         <section class="db dtc-ns v-mid-ns">
-            <img src="riso.jpg" class="w-70 mw5 w5-ns pl3" />
+            <img src="{{ get_url(path="riso.jpg", trailing_slash=false) | safe }}" class="w-70 mw5 w5-ns pl3" />
         </section>
         <section class="db dtc-ns v-mid pl6 pr0-ns pl3-ns fw9">
             <h1 class="mb1 avenir mid-gray">
